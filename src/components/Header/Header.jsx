@@ -9,10 +9,10 @@ function Header() {
       <div className="contact-bar">
         <span>Llámanos al +51 986 663 114</span>
         <div className="social-icons">
-          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/sorprendelima" target="_blank" rel="noopener noreferrer">
             <img src="/icons/facebook-icon.png" alt="Facebook" />
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/sorprendelima/" target="_blank" rel="noopener noreferrer">
             <img src="/icons/instagram-icon.png" alt="Instagram" />
           </a>
           <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
