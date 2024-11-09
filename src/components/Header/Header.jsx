@@ -5,7 +5,7 @@ import './Header.css';
 function Header() {
   return (
     <header className="header">
-      {/* Línea roja con texto de contacto e íconos */}
+      
       <div className="contact-bar">
         <span>Llámanos al +51 986 663 114</span>
         <div className="social-icons">
@@ -15,10 +15,10 @@ function Header() {
           <a href="https://www.instagram.com/sorprendelima/" target="_blank" rel="noopener noreferrer">
             <img src="/icons/instagram-icon.png" alt="Instagram" />
           </a>
-          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.youtube.com/channel/UCWpivZ1HR4j6iViLsW17fEg" target="_blank" rel="noopener noreferrer">
             <img src="/icons/youtube-icon.png" alt="YouTube" />
           </a>
-          <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.tiktok.com/@sorprendelima?lang=es" target="_blank" rel="noopener noreferrer">
             <img src="/icons/tiktok-icon.png" alt="TikTok" />
           </a>
         </div>
