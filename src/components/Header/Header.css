@@ -1,54 +1,71 @@
-/* src/components/Header/Header.css */
-
-/* Línea roja */
-.contact-bar {
+/* Estilos para la línea roja */
+.top-bar {
+    background-color: #d32f2f; /* Rojo */
+    color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #d32f2f;
-    color: white;
-    padding: 0.5rem 2rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+  }
+  
+  .contact-text {
     font-size: 0.9rem;
   }
   
-  .contact-bar .social-icons img {
+  .social-icons img {
     width: 20px;
     height: 20px;
     margin-left: 0.5rem;
-    cursor: pointer;
   }
   
-  /* Línea verde */
-  .main-header {
-    background-color: #004d40;
-    padding: 1rem 2rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  .company-title {
-    color: white;
-    font-size: 1.5rem;
-  }
-  
-  /* Barra de navegación */
+  /* Estilos para la línea verde */
   .nav-bar {
-    display: flex;
-    gap: 1.5rem;
+    background-color: #00695c; /* Verde */
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
   }
   
-  .nav-bar a {
+  /* Estilos para el título de la empresa */
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilos para las opciones del menú */
+  .menu-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .menu-options a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
-    position: relative;
   }
   
-  .nav-bar a:hover {
+  .menu-options a:hover {
     text-decoration: underline;
   }
+  
+  /* Fijar la barra de menú en la parte superior al hacer scroll */
+  .nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+  
+.top-bar,
+.nav-bar {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
   
