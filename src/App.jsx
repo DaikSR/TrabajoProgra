@@ -1,8 +1,9 @@
 import React from 'react';
 import Header from './components/Header/Header';
-import ImageCarousel from './components/body/ImageCarousel';
-import PromoBar from './components/body/PromoBar';
-import ProductSection from './components/body/ProductSection';
+import ImageCarousel from './components/Body/ImageCarousel';
+import PromoBar from './components/Body/PromoBar';
+import ProductSection from './components/Body/ProductSection';
+import Footer from './components/Footer/Footer';
 import './App.css';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <ImageCarousel />
       <PromoBar />
       <ProductSection />
+      <Footer />
     </div>
   );
 };

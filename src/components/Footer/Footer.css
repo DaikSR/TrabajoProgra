@@ -1,0 +1,57 @@
+/* Contenedor principal del footer */
+.footer-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+  }
+  
+  /* Grid para las imágenes */
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+  }
+  
+  /* Estilos para cada imagen en el grid */
+  .grid-item {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Sección de redes sociales */
+  .social-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* Botón de Instagram */
+  .instagram-button {
+    background-color: #ff4c4c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilos de ayuda y WhatsApp */
+  .help-section {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+  }
+  
+  .whatsapp-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
