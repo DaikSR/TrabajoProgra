@@ -16,7 +16,7 @@ import Imagen12 from './Imagenes/Imagen12.jpg';
 
 const Footer = () => {
   return (
-    <div className="footer-container"> 
+    <div className="footer-container">
       <div className="images-grid">
         {/* Añade las imágenes en el orden deseado */}
         <img src={Imagen1} alt="Imagen 1" className="grid-item" />
